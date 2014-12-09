@@ -1,0 +1,7 @@
+*{margin: 0; padding: 10px 0 0 0; direction: rtl;}
+body{font: normal 16px "Tahoma"; text-align: center;}
+a{color:#0066cc; text-decoration: none; display: block; margin: 0 0 10px 0;}
+a:hover{text-decoration: underline;}
+h1{font-size: 22px; margin: 0 0 20px 0;}
+h2{font-size: 18px;}
+.MainCont{width: 80%; margin: 0 auto;}
