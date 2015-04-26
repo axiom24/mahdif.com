@@ -1,0 +1,44 @@
+.castFooter{
+  background:#000;
+  color:#fff;
+  text-align:center;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  display:inline-block;
+}
+.castFooter a{
+  color:rgba(255,255,255,1);
+  text-decoration:none;
+}
+.castFooter a:hover{
+  text-decoration:underline;
+}
+
+.castFooter h1{
+  text-transform:uppercase;
+  padding: 240px 24px;
+}
+
+.castFooter h2{
+  padding: 72px 24px;
+}
+
+.castFooter h3{
+  padding: 0 24px;
+  color:rgba(255,255,255,1);
+}
+
+.castFooter p{
+  font-size:16px;
+  padding:0 24px;
+  margin:0 auto 48px;
+  color:rgba(255,255,255,0.6);
+  max-width:600px;
+}
+
+p.footerBuiltTitle{
+  margin: 120px auto 24px;
+  padding:0 24px;
+  color:rgba(255,255,255,0.4);
+  font-size:12px;
+}
