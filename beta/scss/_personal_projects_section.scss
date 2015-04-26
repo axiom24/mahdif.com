@@ -1,0 +1,27 @@
+// Cover image
+.personalProjectsCoverImage{
+	background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('images/pages-cover-images/ci-personal_projects.jpg') $watermelonRed no-repeat;
+	background-size: 100% auto;
+	background-position: center;
+	border-bottom:solid 3px $watermelonRed;
+}
+// Links colors
+.personalProjectsLinkTitle{
+	color: $watermelonRed;
+}
+
+
+// Designs from lastnight link icon
+.designsFromLastNight-icon{
+	background-image: url(images/personl-projects-icons/ic-poop-designsfromlastnight.svg);
+}
+
+// Designs from lastnight link icon
+.europtripphotos-icon{
+	background-image: url(images/personl-projects-icons/ic-eurotripphotos.svg);
+}
+
+// Subsfinder icon
+.subsfinder-icon{
+	background-image: url(images/personl-projects-icons/ic-subsfinder.svg);
+}

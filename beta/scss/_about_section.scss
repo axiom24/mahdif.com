@@ -1,0 +1,90 @@
+.aboutCoverImage{
+	background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('images/pages-cover-images/ic-about.jpg') $ocean no-repeat;
+	background-size: 100% auto;
+	background-position: center;
+	border-bottom:solid 3px $ocean;
+}
+// Links colors
+.aboutLinkTitle{
+	color: $ocean;
+}
+
+
+// Icon
+.singleTitleNDesCont img{
+	display: inline-block;
+	float: right;
+}
+
+// Images for the stuff I'd share
+.aboutImage-nomad{
+	background-image: url(images/about-images/im-nomad.jpg);
+}
+.aboutImage-poopJokes{
+	background-image: url(images/about-images/im-poop_jokes.jpg);
+}
+.aboutImage-fat{
+	background-image: url(images/about-images/im-fat.gif);
+}
+.aboutImage-meNow{
+	background-image: url(images/about-images/im-me_now.jpg);
+}
+.aboutImage-playingMusic{
+	background-image: url(images/about-images/im-playing_music.gif);
+}
+.aboutImage-married{
+	background-image: url(images/about-images/im-married.gif);
+}
+.aboutImage-university01{
+	background-image: url(images/about-images/im-university01.jpg);
+}
+.aboutImage-university02{
+	background-image: url(images/about-images/im-university02.jpg);
+}
+.aboutImage-hipster{
+	background-image: url(images/about-images/im-hipster.jpg);
+}
+.aboutImage-bald{
+	background-image: url(images/about-images/im-bald.jpg);
+}
+.aboutImage-coffee{
+	background-image: url(images/about-images/im-coffee.jpg);
+}
+.aboutImage-chef{
+	background-image: url(images/about-images/im-chef.jpg);
+}
+.aboutImage-summer{
+	background-image: url(images/about-images/im-summer.gif);
+}
+
+// -- Before you go Images
+.aboutImage-ui{
+	background-image: url(images/about-images/im-ui.jpg);
+}
+.aboutImage-ux{
+	background-image: url(images/about-images/im-ux.jpg);
+}
+.aboutImage-prototype{
+	background-image: url(images/about-images/im-prototype.jpg);
+}
+.aboutImage-frontend{
+	background-image: url(images/about-images/im-frontend.jpg);
+}
+.aboutImage-rockets{
+	background-image: url(images/about-images/im-rockets.gif);
+}
+
+
+// Where you can stalk me icons
+.twitter-icon{
+	background-image: url(images/about-icons/ic-twitter.svg);
+}
+.instagram-icon{
+	background-image: url(images/about-icons/ic-instagram.svg);
+}
+.github-icon{
+	background-image: url(images/about-icons/ic-github.svg);
+}
+.email-icon{
+	background-image: url(images/about-icons/ic-email.svg);
+}
