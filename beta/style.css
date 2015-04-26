@@ -618,7 +618,7 @@ h3 {
   transition: all 0.2s; }
 
 .personalProjectsCoverImage {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("images/pages-cover-images/ci-personal_projects.jpg") #ff3346 no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("images/pages-cover-images/im-personal_projects.jpg") #ff3346 no-repeat;
   background-size: 100% auto;
   background-position: center;
   border-bottom: solid 3px #ff3346; }
@@ -636,7 +636,7 @@ h3 {
   background-image: url(images/personl-projects-icons/ic-subsfinder.svg); }
 
 .labCoverImage {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("images/pages-cover-images/IMG_9769.jpg") #12BB4F no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("images/pages-cover-images/im-lab.jpg") #12BB4F no-repeat;
   background-size: 100% auto;
   background-position: center;
   border-bottom: solid 3px #12BB4F; }
@@ -648,7 +648,7 @@ h3 {
   background-image: url(images/ic-general-link.svg); }
 
 .aboutCoverImage {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("images/pages-cover-images/ic-about.jpg") #009DC4 no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("images/pages-cover-images/im-about.jpg") #009DC4 no-repeat;
   background-size: 100% auto;
   background-position: center;
   border-bottom: solid 3px #009DC4; }
@@ -727,7 +727,7 @@ h3 {
   background-image: url(images/about-icons/ic-email.svg); }
 
 .hireMeCoverImage {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("images/pages-cover-images/IMG_9769.jpg") #FF3700 no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("images/pages-cover-images/im-hire_me.jpg") #FF3700 no-repeat;
   background-size: 100% auto;
   background-position: center;
   border-bottom: solid 3px #FF3700; }
