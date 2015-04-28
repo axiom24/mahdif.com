@@ -1,0 +1,66 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+	transition: all 0.25s;
+	-webkit-appearance: none;
+	-webkit-border-radius: 0;
+	outline: none;
+	font: normal 20px Arial, 'Helvetica Neue', 'Helvetica', sans-serif;
+}
+
+a{
+	color: #0082cc;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+}
+a:hover{
+	text-decoration: underline;
+}
+
+
+body{
+	color: #fff;
+	background: #000;
+}
+
+#mainCont{
+	width: 800px;
+	margin: 40px auto 0;
+	text-align: center;
+}
+
+#mainCont h2{
+	font: bold 50px Arial, Tahoma, sans-serif;
+	letter-spacing: 1px;
+}
+
+#counterNumb{
+	font-size: 280px;
+	font-weight: 700;
+	margin: 20px 0 0 0;
+}
+
+#txtMessageBody{
+	direction: rtl;
+	font: 32px Arial, Tahoma, sans-serif;
+	margin-top: 20px;
+	line-height: 42px;
+}
+
+
+@media screen and (max-width: 800px){
+	#mainCont{width:94%; margin-top:20px;}
+	#counterNumb{font-size: 120px;}
+	#mainCont h2{font-size: 40px;}
+	#txtMessageBody{font-size: 24px; line-height: 34px;}
+}
+
+@media screen and (max-width: 400px){
+	#counterNumb{font-size: 120px;}
+	#mainCont h2{font-size: 28px; letter-spacing: 0px;}
+	#txtMessageBody{font-size: 20px; line-height: 28px;}
+}
