@@ -559,7 +559,8 @@ h3 {
   right: 24px;
   transform: translateY(-40%);
   -webkit-transform: translateY(-40%);
-  font-size: 108px; }
+  font-size: 96px;
+  margin: 0 96px; }
 
 .coverScrollDownButton {
   display: block;
@@ -763,7 +764,8 @@ h3 {
     font-size: 20px; }
 
   .coverSecCont h1 {
-    font-size: 42px; }
+    font-size: 42px;
+    margin: 0; }
 
   .stickyMenu {
     border: none; }

@@ -1,6 +1,5 @@
 .coverSecCont{
 	width:100%;
-	// padding: 300px 0 0 0;
 	position:relative;
 	text-align:center;
 	}
@@ -14,7 +13,8 @@
 	right:24px;
 	transform: translateY(-40%);
 	-webkit-transform: translateY(-40%);
-	font-size:108px;
+	font-size:96px;
+	margin:0 96px;
 }
 
 .coverScrollDownButton{
