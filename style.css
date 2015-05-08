@@ -362,7 +362,8 @@ body {
   font: 400 24px 'Merriweather', serif, Times, Helvetica;
   color: #000;
   position: relative;
-  height: 100%; }
+  height: 100%;
+  background: white; }
 
 button {
   margin: 0;
