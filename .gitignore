@@ -2,3 +2,4 @@
 *._DS_Store
 .svn
 Thumbs.db
+.sass-cache/
