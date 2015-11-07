@@ -3,7 +3,6 @@ html {
 }
 *, *:before, *:after {
   box-sizing: inherit;
-  transition: all 0.5s ease;
 }
 
 body{
@@ -59,6 +58,7 @@ body, h1,h2,h3, p{
 	border-radius: 4px;
   padding:12px 0 0 0;
   margin-top: -20px;
+  font-family: 'Roboto Mono', monospace;
   opacity: 0;
 
   animation:
@@ -88,7 +88,7 @@ body, h1,h2,h3, p{
 
 
 #terminalReslutsCont a{
-  color: rgba(255,255,255,0.9);;
+  color: rgba(255,255,255,0.9);
   text-decoration: none;
 }
 
@@ -104,10 +104,10 @@ body, h1,h2,h3, p{
 	border-radius: 0 0 4px 4px;
 	width: 100%;
 	color: white;
-	font-size: 18px;
 	padding: 18px;
 	font-size: 14px;
   outline: none;
+  font-family: 'Roboto Mono', monospace;
 }
 
 .footerCont{

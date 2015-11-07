@@ -1,10 +1,10 @@
-window.onload = function() {
+document.addEventListener('DOMContentLoaded', function() {
 
   // Get the focus to the text input to enter a word right away.
   document.getElementById('terminalTextInput').focus();
 
   // Getting the text from the input
-  var textInputValue = document.getElementById('terminalTextInput').value;
+  var textInputValue = document.getElementById('terminalTextInput').value.trim();
 
   //Getting the text from the results div
   var textResultsValue = document.getElementById('terminalReslutsCont').innerHTML;
@@ -39,11 +39,11 @@ window.onload = function() {
       "- Wiki + keyword to search directly in Wikipedia (ex. wiki numbers)",
       "- 'Time' will display the current time.",
       "- 'Date' will display the current date.",
-    ]
-    // Shoot the help keywords to the screen
-    for (i=0; i<helpKeyWords.length; i++){
-      addTextToResults(helpKeyWords[i]);
-    }
+      "- 'ironman' will make you happy",
+      "- 'cat videos' will make you even happier",
+      "* There are more keywords that you have to discover by yourself."
+    ].join('<br>');
+    addTextToResults(helpKeyWords);
   }
 
   // Getting the time and date and post it depending on what you request for
@@ -99,6 +99,11 @@ window.onload = function() {
         addTextToResults("An awesome designer/developer friend of mine. <br> He helped me a bit with the CSS animation <a target='_blank' href='https://twitter.com/joericho'>@joericho</a>");
         break;
 
+      case "gabri":
+        clearInput();
+        addTextToResults("An awesome developer friend of mine. <br> Helped me a lot while learning Git and gave a lot of awesome suggestions for this cool project <a target='_blank' href='https://twitter.com/ahmedelgabri'>@ahmedelgabri</a>");
+        break;
+
       case "i love you":
       case "love you":
       case "love":
@@ -106,14 +111,43 @@ window.onload = function() {
         addTextToResults("Aww! That's so sweet 😍. Here's some love for you too ❤ ❤ ❤ !");
         break;
 
+      case "ironman":
+      case "iron man":
+      case "shoot to thrill":
+        clearInput();
+        addTextToResults('Shoot to Thrill!');
+        openLinkInNewWindow('https://www.youtube.com/watch?v=xRQnJyP77tY');
+        break;
+
+      case "git":
+        clearInput();
+        addTextToResults("git push origin master <br>you can check this project's repo on GitHub: <a target='_blank' href='https://github.com/MahdiF/mahdif.com/tree/master/lab/web-terminal'>https://github.com/MahdiF/mahdif.com/tree/master/lab/web-terminal</a>");
+        break;
+
+      case "git status":
+        clearInput();
+        addTextToResults("nothing to commit, working directory clean.");
+        break;
+
+      case "git push origin master":
+        clearInput();
+        addTextToResults("Push me baby!");
+        break;
+
       case "hello":
       case "hi":
       case "hola":
         clearInput();
-        addTextToResults("Hello, it's me... I was wondering if after all these years you'd like to meet...");
+        addTextToResults("Hello, it's me... I was wondering if after all these years you'd like to meet... 😍");
+        break;
+
+      case "cat":
+        clearInput();
+        addTextToResults("Meow!! 🐱<br> psst: try typing (cat videos)");
         break;
 
       case "what the":
+      case "wtf":
         clearInput();
         addTextToResults("F***.");
         break;
@@ -125,6 +159,7 @@ window.onload = function() {
         break;
 
       case "lol":
+      case "trololo":
         addTextToResults("Mr. Trololo!");
         openLinkInNewWindow('https://www.youtube.com/watch?v=1uTAJG3Khes');
         break;
@@ -151,6 +186,7 @@ window.onload = function() {
         break;
 
       case "help":
+      case "?":
         clearInput();
         postHelpList();
         break;
@@ -164,7 +200,7 @@ window.onload = function() {
 
 // Main function to check the entered text and assign it to the correct function
   var checkWord = function() {
-    textInputValue = document.getElementById('terminalTextInput').value; //get the text from the text input to a variable
+    textInputValue = document.getElementById('terminalTextInput').value.trim(); //get the text from the text input to a variable
     textInputValueLowerCase = textInputValue.toLowerCase(); //get the lower case of the string
 
     if (textInputValue != ""){ //checking if text was entered
@@ -193,7 +229,7 @@ window.onload = function() {
     window.scrollTo(0,150);
   }
 
-};
+});
 
 
 // Trash can
