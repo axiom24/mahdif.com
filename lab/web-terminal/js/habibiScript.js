@@ -159,6 +159,7 @@ document.addEventListener('DOMContentLoaded', function() {
         break;
 
       case "shit":
+      case "poop":
       case "💩":
         clearInput();
         addTextToResults("💩");
