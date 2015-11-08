@@ -1,4 +1,5 @@
-document.addEventListener('DOMContentLoaded', function() {
+// document.addEventListener('DOMContentLoaded', function() {
+window.onload = function() {
 
   document.getElementsByTagName('form')[0].onsubmit = function(evt) {
     evt.preventDefault(); // Preventing the form from submitting
@@ -236,7 +237,8 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   };
 
-});
+};
+// });
 
 
 // Trash can
