@@ -57,7 +57,8 @@ document.addEventListener('DOMContentLoaded', function() {
     var timeAndDate = new Date();
     var timeHours = timeAndDate.getHours();
     var timeMinutes = timeAndDate.getMinutes();
-    var dateDay = timeAndDate.getDay();
+    var dateDay = timeAndDate.getDate();
+    console.log(dateDay);
     var dateMonth = timeAndDate.getMonth() + 1; // Because JS starts counting months from 0
     var dateYear = timeAndDate.getFullYear(); // Otherwise we'll get the count like 98,99,100,101...etc.
 
