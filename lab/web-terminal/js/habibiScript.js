@@ -158,6 +158,12 @@ document.addEventListener('DOMContentLoaded', function() {
         addTextToResults("F***.");
         break;
 
+      case "shit":
+      case "💩":
+        clearInput();
+        addTextToResults("💩");
+        break;
+
       case "cat videos":
       case "cat v":
         addTextToResults("Okay I'll show you some in YouTube.");
