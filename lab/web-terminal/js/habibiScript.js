@@ -1,5 +1,11 @@
 document.addEventListener('DOMContentLoaded', function() {
 
+  document.getElementsByTagName('form')[0].onsubmit = function(evt) {
+    evt.preventDefault(); // Preventing the form from submitting
+    checkWord(); // Do your magic and check the entered word/sentence
+    window.scrollTo(0,150);
+  }
+
   // Get the focus to the text input to enter a word right away.
   document.getElementById('terminalTextInput').focus();
 
@@ -222,12 +228,6 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     }
   };
-
-  document.getElementsByTagName('form')[0].onsubmit = function(evt) {
-    evt.preventDefault(); // Preventing the form from submitting
-    checkWord(); // Do your magic and check the entered word/sentence
-    window.scrollTo(0,150);
-  }
 
 });
 
