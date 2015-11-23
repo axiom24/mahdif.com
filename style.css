@@ -279,6 +279,7 @@ a:hover {
   margin: 10px;
   position: relative;
 }
+
 .work-shot::after {
   content: "";
   display: block;
