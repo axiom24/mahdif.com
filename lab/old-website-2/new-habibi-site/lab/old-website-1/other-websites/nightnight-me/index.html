@@ -1,0 +1,159 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+	<!-- DON'T look over here...
+		  _   _ _       _     _     _   _ _       _     _   
+		 | \ | (_)     | |   | |   | \ | (_)     | |   | |  
+		 |  \| |_  __ _| |__ | |_  |  \| |_  __ _| |__ | |_ 
+		 | . ` | |/ _` | '_ \| __| | . ` | |/ _` | '_ \| __|
+		 | |\  | | (_| | | | | |_  | |\  | | (_| | | | | |_ 
+		 |_| \_|_|\__, |_| |_|\__| |_| \_|_|\__, |_| |_|\__|
+		           __/ |                     __/ |          
+		          |___/                     |___/           
+
+		So you think you're a smart-ass by looking at our source code? You think you have ninga powers and this kind of shit? Well you're a little smarter than my dog so Congratulations. But don't be so proud of yourself my Goldfish is still smarter than you.
+
+ 		 [WHY DID WE CREATE THIS AWESOME WEBSITE?]
+ 		 This super awesome website was my first try in making a flat web design and responsive that works on mobile phones as well, and it was a good challange for the genius developer I'm marrying to be achieved in Javascript and I believe that she did a great job... 
+
+		 [YOU ARE SO COOL!]
+		 You are... because you're going to share it with other geeks on Twitter and will share it with non-geeks on Facebook... BUT if you didn't share it you're not cool at all, SERIOUSLY you are NOT.
+
+		 [CONTACT US?]
+		 Looks like you're so lazy to search us online... it's okay we're all the same... or maybe you don't wanna look like a stalker?! hmmm... anyway you can contact us here:
+		 {Email} sleepATnightnight.me (If you can't read the email you must be gifted with stupidity, I'm happy for your mother she must be so proud.)
+		 {Twtter} @NightNightApp
+		 {Designer's Website} http://www.mahdif.com
+		 {Developer's Website} http://www.nourabusoud.com
+	
+	//Stop looking now. -->
+
+	<!-- Meta Shiz [START] -->
+		<meta name="title" content="Night Night - Sleeping Like a Boss!" />
+		<meta name="keywords" content="Sleeping, Time, Wake, Sleep, Timer, Sleeping Cycles, Like, A BOSS" />
+		<meta name="description" content="Night Night Makes You Sleep Like a Boss!" />
+		<meta name="twitter:site" content="@NightNightApp" />
+		<meta property="og:title" content="Sleeping Like a Boss!" />
+		<meta property="og:site_name" content="Night Night" />
+		<meta property="og:url" content="http://www.nightnight.me/" />
+		<meta property="og:description" content="Night Night Makes You Sleep Like a Boss!" />
+		<meta property="og:image" content="http://www.nightnight.me/images/facebook_og_image_400_x_400.png" />
+		<meta name="viewport" content="width=device-width" />
+	<!-- Meta Shiz [END] -->
+
+	<!-- Google Analytics Shiz [START] -->
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-3416596-9', 'nightnight.me');
+	  ga('send', 'pageview');
+	</script>
+	<!-- Google Analytics Shiz [END] -->
+
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<link href="Style.css" rel="stylesheet" type="text/css" />
+	
+	<link rel="shortcut icon" href="http://www.nightnight.me/images/favicon.ico" type="image/x-icon" />
+
+	<!-- Awesome font from google [BEGIN] -->
+		<link href='http://fonts.googleapis.com/css?family=Roboto:900,300' rel='stylesheet' type='text/css'>
+	<!-- Awesome font from google [END] -->
+	<!-- Developer's Serious ShiZ [BEGIN] -->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/time-picker.js"></script>
+	<!-- Developer's Serious Shiz [END] -->
+	<!-- Smooth Scrolling [START] -->
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$('[name="'+this.hash.substring(1)+'"]').offset().top}, 500);
+				});
+			});
+		</script>
+	<!-- Smooth Scrolling [END] -->
+
+
+	<title>Night Night - Sleeping Like a Boss!</title>
+<body>
+	<a name="Head"></a>
+	<a name="HeaderArea"></a>
+	<div class="HeaderArea">
+		<div class="HeaderCont">
+			<div class="WakeSleepCont">
+				<div class="WakupTimeSelect"><a href="http://nightnight.me" title="I wanna go home!"></a></div>
+				<div class="SleepTimeSelect"><a href="#"></a></div>
+			</div>
+			<div class="WakeSleepArrowCont"><img class="WakeSleepArrow" src="images/ArrowUpLight.svg"></div>
+		</div>
+	</div>
+	<div class="MainCont">
+		<h1 class="WhenTitle">When do you want to <b>wake up?</b></h1>
+		<div class="UpperArrows">
+			<div class="HoursArrowUp" id="HoursArrowUp"></div>
+			<div class="MinutesArrowUp" id="MinutesArrowUp"></div>
+		</div>
+		<div class="TimeCont">
+			<div class="TimeValueCont">
+				<input class="HoursValue" id="hour" type="text" name="Hours" value="07" readonly />
+				<div class="TimeSeperator">:</div>
+				<input class="MinutesValue" id="minute" type="text" name="Minutes" value="35" readonly />
+			</div>
+			<div class="AMPMCont">
+				<div class="SelectAM" id="am"></div>
+				<div class="SelectPM" id="pm"></div>
+			</div>
+		</div>
+		<div class="BottomArrows">
+			<div class="HoursArrowDown" id="HoursArrowDown"></div>
+			<div class="MinutesArrowDown" id="MinutesArrowDown"></div>
+		</div>
+		<a class="SexyOrangeButton scroll" id="SexyOrangeButton" href="#ResultPointer">When shall I <b>Sleep?</b></a>
+		<a name="ResultPointer"></a>
+		<div class="ResultArrowCont" ><img class="ResultArrow" src="images/ArrowUpDark.svg"></div>
+		<div class="ResultCont">
+				<h3 class="ResultTitle">You should <b>fall asleep</b> at one of the following times:</h3>
+				<div class="ResultValueCont fl" id="time1">
+					<div class="ResultTime fl" ><b>04</b>:45</div>
+					<div class="ResultAMIcon fl"></div>
+				</div>
+				<div class="ResultValueCont fr" id="time2">
+					<div class="ResultTime fl"><b>10</b>:30</div>
+					<div class="ResultPMIcon fl"></div>
+				</div>
+				<div class="ResultValueCont fl" id="time3">
+					<div class="ResultTime fl"><b>09</b>:20</div>
+					<div class="ResultPMIcon fl"></div>
+				</div>
+				<div class="ResultValueCont fr" id="time4">
+					<div class="ResultTime fl"><b>07</b>:15</div>
+					<div class="ResultAMIcon fl"></div>
+				</div>
+		</div>
+		<h2 class="ResultNote">The average adult human takes <b>14 minutes</b> to fall asleep, so plan accordingly!</h2>
+		<a class="SexyGreenButton scroll" href="#Head">Different time?</a>
+		<div class="LikeTweetCont">
+			<p>You will <b>Like</b> it &amp; will <b>Tweet</b> about it as well</p>
+				<iframe class="FacebookCont" src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Ffacebook.com%2Fnightnightapp&amp;send=false&amp;layout=button_count&amp;width=100&amp;show_faces=false&amp;font&amp;colorscheme=light&amp;action=like&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;" allowTransparency="true"></iframe>
+
+			<div class="TwitterCont">
+				<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.NightNight.me" data-text="I can now sleep like a boss! after using NightNight - Check it out NOW!" data-via="NightNightApp">Tweet</a>
+				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){ js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+			</div>
+		</div>
+
+		<div class="FooterNotes">
+			This awesome website was designed by
+			<a href="http://www.mahdif.com" title="The awesome website of the Watermelon lover!" target="_blank">a Watermelon lover.</a>
+			<br>And coded by
+			<a href="http://www.nourabusoud.com/" title="Red Velvet Cupcakes lover website" target="_blank">a Red Velvet Cupcakes lover.</a>
+			<br>
+			And yes this is a beta version! - 0.8 (public) - Sat - May 4 2013
+		</div>
+	</div>
+</body>
+</html>

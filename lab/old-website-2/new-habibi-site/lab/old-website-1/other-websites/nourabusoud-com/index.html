@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Nour Abu Soud - Front End &#38; Back End Web Developer</title>
+
+	<!-- [START - Google Analytics Code] -->
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-39432248-1']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+	</script>
+	<!-- [END - Google Analytics Code] -->
+
+	<meta name="viewport" content="width=device-width" />
+
+	<link rel="icon" href="images/32Icon.png" sizes="32x32">
+
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,100,700,100italic,300italic,400italic' rel='stylesheet' type='text/css'>
+	<script src="js/jquery-1.10.2.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="js/functions.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+  $('a[href*=#]').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+    && location.hostname == this.hostname) {
+      var $target = $(this.hash);
+      $target = $target.length && $target
+      || $('[name=' + this.hash.slice(1) +']');
+      if ($target.length) {
+        var targetOffset = $target.offset().top;
+        $('html,body')
+        .animate({scrollTop: targetOffset}, 1000);
+       return false;
+      }
+    }
+  });
+});
+	</script>
+</head>
+
+<body>
+<div class="divHome">
+		<img class="imgPhoto" src="images/selfie2.jpg"/>
+		<h2>Nour Abu So'ud</h2>
+		<p>	Can magically get code out of pixels (HTML/CSS/Sass/Javascript)
+			<br/>I know how to talk to web servers (PHP/MySQL)
+		</p>
+		<ul class="nav">
+			<li style="float:left">
+				<a href="#divWork">My Work</a>
+			</li>
+			<li tyle="float:right">
+				<a href="http://ae.linkedin.com/in/nourabusoud/" target="_blank">My Resume</a>
+			</li>
+		</ul>
+		<div id="divContact"><a href="mailto:nour.abusoud@gmail.com"><img id="email" src="images/email_Icon.png"></a></div>
+</div>	
+
+
+<div id="divWork" class="divWork">
+<p class="workHeader">My Work</p>
+	<div class="divWorkListBigScreen">
+		<ul class="work">
+
+			<li class="liWork">
+				<a href="http://dubizzle.uno" target="_blank">
+					<div class="divMask">
+						<p style="top:50px;">GitHub<br/>Sass<br/>HTML<br/>Javascript</p>
+					</div>
+					<img src="images/dubizzleUno.png">
+				</a>
+				<div class="divTitle">dubizzle.uno</div>
+			</li>
+
+			<li class="liWork">
+				<a href="http://www.nightnight.me" target="_blank">
+					<div class="divMask">
+						<p style="top:100px;">Javascript</p>
+					</div>
+					<img src="images/nightnight.jpg">
+				</a>
+				<div class="divTitle">NightNight.com</div>
+			</li>
+
+			<li class="liWork">
+				<a href="http://www.transjas.com" target="_blank">
+					<div class="divMask">
+						<p style="top:50px;">PHP<br/>HTML<br/>CSS<br/>Javascript<br/>Wordpress</p>
+					</div>
+					<img src="images/transjas.jpg">
+				</a>
+				<div class="divTitle">transjas.com</div>
+			</li>
+
+			<li class="liWork">
+				<a href="http://www.laha.me" target="_blank">
+					<div class="divMask">
+						<p style="top:40px;">PHP<br/>MySQL<br/>HTML<br/>CSS<br/>Joomla</p>
+					</div>
+					<img src="images/laha.jpg">
+				</a>
+				<div class="divTitle">laha.me</div>
+			</li>
+
+			<li class="liWork">
+				<a href="http://wwww.masasaudi.com" target="_blank">
+					<div class="divMask">
+						<p style="top:50px;">PHP<br/>HTML<br/>CSS<br/>Javascript<br/>Wordpress</p>
+					</div>
+					<img src="images/masasaudi.jpg">
+				</a>
+				<div class="divTitle">masasaudi.com</div>
+			</li>
+			
+		</ul>
+	</div>
+
+	<div class="divWorkListResponsive">
+		<ul class="work">
+
+			<li>
+				<a href="http://dubizzle.uno" target="_blank">				
+					<img src="images/dubizzleUno.png">
+					<div class="divTitle">
+						<p>dubizzle.uno</p>
+						GitHub<br/>Sass</br/>HTML<br/>Javascript
+					</div>	
+				</a>	
+			</li>
+
+			<li>
+				<a href="http://www.nightnight.me" target="_blank">				
+					<img src="images/nightnight.jpg">
+					<div class="divTitle">
+						<p>NightNight.com</p>
+						Javascript
+					</div>	
+				</a>	
+			</li>
+
+			<li>
+				<a href="http://www.transjas.com" target="_blank">
+					<img src="images/transjas2.png">	
+					<div class="divTitle">
+						<p>transjas.com</p>
+						PHP<br/>HTML<br/>CSS<br/>Javascript<br/>Wordpress
+					</div>	
+				</a>	
+			</li>
+
+			<li>
+				<a href="http://www.laha.me" target="_blank">
+					<img src="images/laha2.png">
+					<div class="divTitle">
+						<p>laha.me</p>
+						PHP<br/>MySQL<br/>HTML<br/>CSS<br/>Joomla
+					</div>	
+				</a>
+			</li>
+
+			<li>
+				<a href="http://wwww.masasaudi.com" target="_blank">
+					<img src="images/masa2.png">
+					<div class="divTitle">
+						<p>masasaudi.com</p>
+						PHP<br/>HTML<br/>CSS<br/>Javascript<br/>Wordpress
+					</div>
+				</a>	
+			</li>
+			
+		</ul>
+	</div>
+</div>
+<div class="divFooter">
+	<img src="images/cupcake.jpg" height="64"/>
+	<b>Why? </b>There's no why, I just love cupcakes!
+</div>
+
+<script>
+
+$(".liWork").mouseover(function(){
+	$(this).find(".divMask").fadeIn();
+});
+
+$(".liWork").mouseleave(function(){
+	$(this).find(".divMask").fadeOut();
+});		
+
+</script>
+</body>
+</html>

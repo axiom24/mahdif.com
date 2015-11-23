@@ -1,0 +1,76 @@
+*{
+	margin:0;
+	padding:0;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+body{
+	color:#222;
+	padding:0;
+	margin:0;
+	background:#fff;
+	text-align:left;
+	direction:ltr;
+	font: 300 24px 62.5% "Open Sans","Helvetica Neue", "Helvetica", Arial, Geneva, sans-serif;
+	height: 100%;
+	min-height: 100%;
+}
+
+input, textarea, button {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+  outline: none;
+}
+
+button{transition: all 0.1s ease;}
+
+input{transition: all 0.15s ease;}
+
+#mainCont{transition: all 0.45s ease;}
+
+#mainCont{
+	width: 500px;
+	margin: 200px auto 0;
+}
+
+#txtName{
+	width: 100%;
+	text-align: center;
+	border: none;
+	border-bottom: solid 2px #cecece;
+	font: 300 italic 24px "Open Sans","Helvetica Neue", "Helvetica", Arial;
+	color: #cecece;
+	padding: 10px 0;
+}
+
+#btnSeeMessage{
+	margin: 50px auto 0;
+	width: 100%;
+	height: 70px;
+	display: none;
+	border:none;
+	background: #00cccc;
+	color: #fff;
+	text-transform: uppercase;
+	font: 300 20px "Open Sans","Helvetica Neue", "Helvetica", Arial;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	cursor: pointer;
+}
+#btnSeeMessage:hover{
+	background: #00bcbc;
+}
+#btnSeeMessage:active{
+	background: #009c9c;
+	padding-top: 4px;
+	height: 66px;
+	margin-top: 54px;
+}
+
+@media screen and (max-width: 600px){
+	#mainCont{width:94%;}
+	#btnSeeMessage{	height: 60px; font-size: 18px;}
+}

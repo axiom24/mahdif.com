@@ -1,0 +1,251 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+
+	-webkit-transition: all 0.25s;
+    -moz-transition: all 0.25s;
+    -o-transition: all 0.25s;
+    transition: all 0.25s;
+
+	outline: none;
+	font: 300 20px 'Open Sans', 'Helvetica Neue', 'Helvetica', sans-serif;
+}
+
+
+body{
+	background: #fff;
+	color: #222;
+	text-align: center;
+}
+
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+
+.mainCont{
+	width: 1000px;
+	height: 800px;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+
+
+.bodyUpperPart{
+	width: 70%;
+	background: #e4b69d;
+	border-left: solid 4px #b08874;
+	border-right: solid 4px #b08874;
+	height: 40%;
+	margin: 0 auto;
+}
+
+.bodyBottomPart{
+	width: 90%;
+	height: 60%;
+	margin: 0 auto 0;
+	font-size: 0;
+}
+
+.leftLeg, .rightLeg{
+	width: 38%;
+	background: #e4b69d;
+	border-left: solid 4px #b08874;
+	border-right: solid 4px #b08874;
+	height: 100%;
+	display: inline-block;
+}
+
+.leftLeg{
+	margin: 0 0 0 5%;
+	
+	-webkit-transform: skewX(8deg);
+	-moz-transform: skewX(8deg);
+	-ms-transform: skewX(8deg);
+	-o-transform: skewX(8deg);
+	transform: skewX(8deg);
+
+	float: left;
+}
+
+.rightLeg{
+	margin: 0 5% 0 0;
+	
+	-webkit-transform: skewX(-8deg);
+	-moz-transform: skewX(-8deg);
+	-ms-transform: skewX(-8deg);
+	-o-transform: skewX(-8deg);
+	transform: skewX(-8deg);
+
+	float: right;
+}
+
+.assCheeks{
+	width: 100%;
+	position: absolute;
+	top: 10%;
+	font-size: 0;
+	text-align: left;
+	z-index: 1;
+}
+
+.leftAssCheek, .rightAssCheek{
+	width: 60%;
+	background: #e4b69d;
+	border: solid 6px #b08874;
+	padding-bottom: 50%;
+
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%; 
+
+	position: absolute;
+	cursor: pointer;
+	z-index: 1;
+}
+
+.leftAssCheek{
+	border-top: none;
+	border-right: none;
+
+	-webkit-transform: rotate(-20deg);
+	-moz-transform: rotate(-20deg);
+	-ms-transform: rotate(-20deg);
+	-o-transform: rotate(-20deg);
+	transform: rotate(-20deg);
+
+	left: 1%;
+}
+
+.rightAssCheek{
+	right: 1%;
+	border-top: none;
+	border-left: none;
+
+	-webkit-transform: rotate(20deg);
+	-moz-transform: rotate(20deg);
+	-ms-transform: rotate(20deg);
+	-o-transform: rotate(20deg);
+	transform: rotate(20deg);
+}
+
+.leftAssCheek:hover{
+	-webkit-transform: rotate(-5deg);
+	-moz-transform: rotate(-5deg);
+	-ms-transform: rotate(-5deg);
+	-o-transform: rotate(-5deg);
+	transform: rotate(-5deg);
+}
+
+.rightAssCheek:hover{
+	-webkit-transform: rotate(5deg);
+	-moz-transform: rotate(5deg);
+	-ms-transform: rotate(5deg);
+	-o-transform: rotate(5deg);
+	transform: rotate(5deg);
+}
+
+.justAnotherShitLinkCont{
+	width: 100%;
+	display: block;
+	background: none;
+	color: #333;
+	font-size: 14px;
+	padding:15px 0;
+	border-top: solid 2px #b08874;
+}
+
+.justAnotherShitLinkCont a{
+	font-size: 14px;
+	color: #0878c0;
+}
+
+.shareButtonsCont{
+	margin: 15px 0;
+}
+
+.twitter-share-button{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.fb-like{
+	display: inline-block;
+	vertical-align: top;
+	line-height: 0;
+}
+
+.poopCont{
+	width: 15%;
+	height: 140px;
+	margin: 0 auto;
+	position: relative;
+	display: block;
+	z-index: 0;
+	top: 25px;
+	opacity: 0;
+}
+
+.poopBottomPart{
+	width: 100%;
+	height: 90%;
+	background: #744C28;
+	border: solid 3px #603813;
+	border-top: none;
+	border-radius: 50%;
+	z-index: 2;
+	position: absolute;
+	top: 10%;
+}
+
+.poopMiddlePart{
+	width: 60%;
+	height: 75%;
+	background: #744C28;
+	border-left: solid 3px #603813;
+	border-radius: 50%;
+	position: absolute;
+	z-index: 3;
+	top: 5%;
+	left: 5%;
+}
+
+.poopUpperPart{
+	width: 70%;
+	height: 50%;
+	background: #744C28;
+	border-right: solid 3px #603813;
+	border-radius: 50%;
+	position: absolute;
+	z-index: 4;
+	right: 5%;
+}
+
+@media screen and (max-width: 1000px){
+	.mainCont{width:94%; height: 700px}
+	.justAnotherShitLinkCont, .justAnotherShitLinkCont a{font-size: 12px;}
+}
+
+@media screen and (max-width: 900px){
+	.mainCont{height: 600px}
+	.justAnotherShitLinkCont{font-size: 11px; padding: 15px 5%;}
+}
+
+@media screen and (max-width: 700px) {
+	.mainCont{height: 500px; }
+}
+
+@media screen and (max-width: 600px) {
+	.mainCont{height: 350px;}
+	.poopCont{opacity: 1;}
+}
+
+@media screen and (max-width: 450px) {
+	.poopCont{top: 260px; height: 60px;}
+}

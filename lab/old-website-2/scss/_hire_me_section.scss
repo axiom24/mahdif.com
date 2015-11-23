@@ -1,0 +1,41 @@
+// Cover image
+.hireMeCoverImage{
+	// background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('images/pages-cover-images/im-hire_me.jpg') $fireRed no-repeat;
+	// background-size: 100% auto;
+	// background-position: center;
+	border-bottom:solid 2px $fireRed;
+}
+// Links colors
+.hireMeLinkTitle, .mobileNumbCont a, .emailAddrCont a{
+	color: $fireRed;
+}
+
+.hireMeSubtitle{
+	text-align:center;
+	color: rgba(0,0,0,0.65);
+	margin-top:12px;
+	font-size:18px;
+	padding: 0 24px;
+}
+
+
+.contactInfoCont{
+	text-align:center;
+}
+
+.contactInfoCont h3{
+	color:rgba(0,0,0,0.75);
+}
+
+.mobileNumbCont, .emailAddrCont{
+	width:50%;
+	display:inline-block;
+}
+
+.mobileNumbCont a, .emailAddrCont a{
+	text-decoration:none;
+}
+
+.mobileNumbCont a:hover, .emailAddrCont a:hover{
+	text-decoration:underline;
+}

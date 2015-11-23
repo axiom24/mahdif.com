@@ -1,0 +1,235 @@
+body{
+	color:#4a5b6a;
+	padding:0;
+	margin:0;
+	background:#e8f0f7;
+	text-align:left;
+	direction:ltr;font: 300 62.5% "Roboto","Helvetica Neue", "Helvetica", Arial, Geneva, sans-serif;
+	height: 100%;
+}
+*{margin:0; padding:0;}
+
+.fl{float: left;}
+.fr{float: right;}
+
+/* Header Shitz [START] */
+.HeaderArea{height: auto; width: 100%; display: block; background: #006699; display: inline-block;}
+
+.HeaderCont{width: 550px; margin: 0 auto; position: relative;}
+
+.WakeSleepCont{width:100%; height: auto; margin:3% 0; display: inline-block;}
+
+.WakeSleepArrowCont{width: 100%; height: 10px;}
+.WakeSleepArrow{background: url("images/ArrowUpLight.svg") no-repeat; width: 15px; height: 10px; position: relative; left: 3.5%;}
+
+.WakupTimeSelect{width: 50%; height: 100%; float: left;}
+.WakupTimeSelect a{background: url("images/amIcon_Light.svg") center no-repeat; width: 50px; height: 50px; display: block;}
+
+.SleepTimeSelect{width: 50%; height: 100%; float: right; display: none;}
+.SleepTimeSelect a{background: url("images/pmIcon_DarkBlue.svg") center no-repeat; width: 50px; height: 50px; display: block; float: right;}
+.SleepTimeSelect a:hover{background: url("images/pmIcon_Light.svg") center no-repeat;}
+/* Header Shitz [END] */
+
+
+/* Main Content Shiz [START] */
+
+.MainCont{width: 550px; margin: 3em auto -20px; position: relative; min-height: 100%; height: 100%;}
+.WhenTitle{width: 100%; height: auto; font: 300 4em "Roboto"; display: inline-block; margin: 0 0 30px 0;}
+
+
+.UpperArrows, .BottomArrows{width: 60%; height: 50px;}
+.BottomArrows{margin: 10px 0 0 0;}
+
+.HoursArrowUp, .MinutesArrowUp, .HoursArrowDown, .MinutesArrowDown{
+	width: 47%;
+	height:50px; 
+	display: block;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    cursor: pointer;
+}
+.HoursArrowUp:hover, .MinutesArrowUp:hover, .HoursArrowDown:hover, .MinutesArrowDown:hover{
+	background-color: #bfd1e0;
+}
+.HoursArrowUp:active, .MinutesArrowUp:active, .HoursArrowDown:active, .MinutesArrowDown:active{
+	background-color: #a9b9c7;
+}
+
+.HoursArrowUp, .HoursArrowDown{float: left; display: block;}
+.MinutesArrowUp, .MinutesArrowDown{float: right; display: block;}
+
+.HoursArrowUp, .MinutesArrowUp{background: url("images/ArrowUp.svg") #c1ccd5 center no-repeat;}
+.HoursArrowDown, .MinutesArrowDown{background: url("images/ArrowDown.svg") #c1ccd5 center no-repeat;}
+
+
+
+.TimeCont{width: 100%; height: auto; display: inline-block;}
+
+.TimeValueCont{width: 60%; height: auto; float: left; margin: 10px 0 0 0;}
+.HoursValue, .TimeSeperator, .MinutesValue{color: #006699; background: none; border: none; font-size: 11em;}
+.HoursValue{width: 44%; height: auto; float: left; font-weight: 900;}
+.HoursValue:hover{color: #004b70;}
+.TimeSeperator{width: 8%; height: auto; float: left; line-height: 1em;}
+.MinutesValue{width: 44%; height: auto; float: right;}
+.MinutesValue:hover{color: #004b70;}
+
+
+.AMPMCont{width: 38%; height: 75px; float: right; margin: 3.5em 0 0 0;}
+
+.SelectAM{
+	background: url("images/amIcon_Light.svg") #006699 center no-repeat;
+	background-size: 45%;
+	width: 50%;
+	height:100%;
+	display: block;
+	float: left;
+	border-radius: 5px 0 0 5px;
+	-moz-border-radius: 5px 0 0 5px;
+    -webkit-border-radius: 5px 0 0 5px;
+    -khtml-border-radius: 5px 0 0 5px;
+    cursor: pointer;
+}
+.SelectAM:hover{
+	background: url("images/amIcon_Light.svg") #005179 center no-repeat;
+	background-size: 45%;
+}
+.SelectAM:active{background-color: #006699;}
+
+.SelectPM{
+	background: url("images/pmIcon_Dark.svg") #c1ccd5 center no-repeat;
+	background-size: 30%;
+	width: 50%;
+	height:100%;
+	display: block;
+	float: left;
+	border-radius: 0 5px 5px 0;
+	-moz-border-radius: 0 5px 5px 0;
+    -webkit-border-radius: 0 5px 5px 0;
+    -khtml-border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+.SelectPM:hover{
+	background: url("images/pmIcon_Light.svg") #005179 center no-repeat;
+	background-size: 30%;
+}
+.SelectPM:active{background-color: #006699;}
+
+
+.SexyOrangeButton, .SexyGreenButton{
+	display: block;
+	font: 300 26px "Roboto";
+	text-decoration: none;
+	text-align: center;
+	margin: 40px 0;
+	width: 100%;
+	height: 60px;
+	padding: 20px 0 0 0;
+	letter-spacing: 1px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+}
+
+.SexyOrangeButton{background: #cc6600; color: #ffcc99;}
+.SexyOrangeButton:hover{background: #b55a00;}
+.SexyOrangeButton:active{background: #b74e00;}
+
+.SexyGreenButton{background: #339933; color: #66cc66; display: none;}
+.SexyGreenButton:hover{background: #288728;}
+.SexyGreenButton:active{background: #1b711b;}
+
+
+
+.ResultArrowCont{width: 100%; height: 16px; margin: 2em 0 0 0; display: none;}
+.ResultArrow{background: url("images/ArrowUpDark.svg") no-repeat; width: 25px; height: 16px; position: relative; left:28%;}
+
+.ResultCont{
+	background: #293037;
+	width: 96%;
+	padding: 2%;
+	height: auto;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    /* display: inline-block; */
+    display: none;
+}
+
+.ResultTitle{font:300 2.2em "Roboto"; color: #93a0ae; letter-spacing: 1px; width: 96%; text-align: left; margin: 2% 2% 3% 2%;}
+
+.ResultValueCont{width: 45%; margin: 0 2% 20px 2%; display: inline-block;}
+.ResultTime{
+	font: 300 5em "Roboto";
+	color: #e8f0f7;
+}
+.ResultTime:hover{color: #fff;}
+.ResultAMIcon, .ResultPMIcon{
+	width: 42px;
+	height: 42px;
+	display: block;
+	margin: 4% 0 0 10%;
+	float: left;
+}
+.ResultAMIcon{background: url("images/amIcon_Light.svg") center no-repeat; background-size: 95%;}
+.ResultPMIcon{background: url("images/pmIcon_Light.svg") center no-repeat; background-size: 75%;}
+
+.ResultNote{font: 300 20px "Roboto"; color: #cc3300; margin: 20px 0 0 0; display: none;}
+
+.LikeTweetCont{font:300 14px "Roboto"; color: #aab8c5;}
+.LikeTweetCont p{float: left; margin: 0 10px 10px 0;}
+.FacebookCont{margin: 0 10px 0 0; display: block; width: 100px; float: left; float: left;}
+
+.FooterNotes{
+	font-size: 11px;
+	text-align: center;
+	color: #4a5b6a;
+	margin: 10% 0 0 0;
+}
+.FooterNotes a{
+	color: #cc3300;
+	text-decoration: none;
+}
+.FooterNotes a:hover{text-decoration: underline;}
+
+
+/* Main Content Shiz [END] */
+
+
+
+/* Responsive ShitZ */
+
+
+@media screen and (max-width: 550px){
+	.HeaderCont{ width:94%;}
+	.MainCont{width: 94%;}
+	body{font-size: 40%;}
+	.HeaderCont{width:94%;height: 100%;}
+	.ResultValueCont{width: 70%; margin: 2% 15%;}
+	.ResultTime{font-size: 9em;}
+	.ResultAMIcon{margin: 7% 0 0 10%;}
+	.AMPMCont{margin: 2.3em 0 0 0; height: 55px;}
+	.HoursArrowUp, .MinutesArrowUp, .HoursArrowDown, .MinutesArrowDown{height: 40px;}
+	.WakeSleepArrow{left: 5%;}
+}
+
+@media screen and (max-width: 450px){
+	body{font-size: 40%;}
+	.HeaderCont{width:94%;height: 100%;}
+	.ResultValueCont{width: 70%; margin: 2% 15%;}
+	.ResultTitle{font-size: 3em;}
+	.ResultTime{font-size: 7em;}
+	.ResultAMIcon{margin: 7% 0 0 10%; }
+	.AMPMCont{margin: 2.3em 0 0 0; height: 55px;}
+	.HoursArrowUp, .MinutesArrowUp, .HoursArrowDown, .MinutesArrowDown{height: 40px;}
+	.WakeSleepArrow{left: 5%;}
+	.HoursValue, .TimeSeperator, .MinutesValue{font-size: 9.5em;}
+	.WakupTimeSelect a{background-size: 90%; width: 35px; height: 35px; margin-left: 4%;}
+	.WakeSleepCont{margin:1.5% 0;}
+	.SexyOrangeButton, .SexyGreenButton{height: 40px; font-size: 22px; padding: 15px 0 5px 0;}
+	.ResultAMIcon{background-size: 75%;}
+	.ResultPMIcon{background-size: 55%;}
+}

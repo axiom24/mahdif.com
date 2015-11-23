@@ -1,0 +1,70 @@
+*{
+	margin:0;
+	padding:0;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+	transition: all 0.15s;
+}
+
+body{
+	color:#222;
+	padding:0;
+	margin:0;
+	background:#fff;
+	text-align:left;
+	direction:ltr;
+	font: 300 62.5% "Helvetica Neue", "Helvetica", Arial, Geneva, sans-serif;
+	height: 100%;
+	min-height: 100%;
+}
+
+input, textarea {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+}
+
+
+.mainCont{
+	width: 100%;
+	margin: 0 auto 200px;
+}
+
+.mainCont h1{
+	font-size: 36px;
+	text-align: center;
+	margin: 50px 0 75px 0;
+}
+
+.mainCont a{
+	font-size: 24px;
+	line-height: 34px;
+	color: #0099ff;
+	display: block;
+	width: 100%;
+	text-decoration: none;
+	padding: 28px 25px 25px 25px;
+	border-bottom: solid 1px #eff8ff;
+	position: relative;
+	text-align: center;
+}
+
+.mainCont a:hover{
+	background: #0099ff;
+	color: #fff;
+}
+
+.mainCont a:active{
+	background: #008eee;
+}
+
+@media screen and (max-width: 600px){
+	.mainCont h1{font-size: 30px; margin: 25px 0 50px 0;}
+	.mainCont a{font-size: 18px; line-height: 28px; padding: 18px 15px 15px 15px;}
+}
+
+/* if you have a kickass screen with a high resolution... thank me later */
+@media screen and (min-width: 1800px){
+	.mainCont h1{font-size: 50px; margin: 75px 0 125px 0;}
+	.mainCont a{font-size: 38px; line-height: 48px; padding: 38px 35px 35px 35px;}
+}

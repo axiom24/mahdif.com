@@ -1,0 +1,57 @@
+.bioSectionCont{
+	text-align:center;
+}
+
+.bioSectionCont h1{
+	color:$watermelonRed;
+	margin:0 auto;
+	padding: 0 48px;
+}
+
+.bioSectionCont p{
+	width:600px;
+	margin:0 auto 48px;
+	color:rgba(0,0,0,0.85);
+}
+
+.flyingWatermelonsCont{
+	height:435px;
+	background: url('images/im-watermelons.svg') bottom no-repeat;
+	margin-bottom: 48px;
+}
+
+.bioNavCont ul{
+	list-style-type: none;
+	margin-bottom:48px;
+}
+
+.bioNavCont li{
+	display: inline-block;
+
+}
+
+// Removing the right margin from the last link on the right
+.bioNavCont li:last-child a{
+	margin-right:0;
+}
+
+
+.bioNavCont a{
+	font-size:18px;
+	display:block;
+	color:rgba(0,0,0,0.85);
+	margin: 12px 12px 0 0;
+	padding: 12px 30px;
+	border-radius:50px;
+	background-color: white;
+	border:solid 1px $blueBooger;
+	text-decoration:none;
+}
+
+.bioNavCont a:hover{
+	text-decoration:none;
+	background-color: $watermelonRed;
+	border:solid 1px $watermelonRed;
+	color:white;
+	transition: all 0.2s;
+}
