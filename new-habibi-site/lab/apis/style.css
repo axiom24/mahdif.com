@@ -1,0 +1,21 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body{
+  font: caption;
+  font-family: 'Roboto','Helvetica Neue', 'Lucida Grande', sans-serif;
+}
+
+body, h1,h2,h3, p{
+	margin:0;
+	padding:0;
+}
+
+/* Make me responsive */
+@media screen and (max-width: 1000px){
+
+}

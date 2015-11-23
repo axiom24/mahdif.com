@@ -1,0 +1,37 @@
+body{font-size:20px; color:#333; padding:0; margin:0; background: url(bg.png) repeat-x #f2f2f2; text-align:right; direction:rtl;font-family:"Tahoma", Arial, Geneva, sans-serif;}
+*{margin:0; padding:0}
+input:focus{
+	outline: none;
+}
+textarea:focus{
+	outline: none;
+}
+
+.fl{float:left;}
+.fr{float:right;}
+.cleaner{clear:both;}
+
+.Cont{
+	background: url(Scroll.png) no-repeat;
+	width: 1600px;
+	height: 2902px;
+	margin: 0 auto;
+}
+
+
+.Header{
+	width: 100%;
+	height: 65px;
+	background: url(Scroll_Header.png) #309ade no-repeat center;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+
+
+
+
+
+
+
