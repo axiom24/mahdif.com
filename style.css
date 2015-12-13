@@ -448,17 +448,6 @@ a:hover {
   body, .habibi-link {
     font-size: 16px;
   }
-  .head-cover-bg {
-    background-attachment: scroll;
-  }
-
-  .short-bio-cover-bg {
-    background-attachment: scroll;
-  }
-
-  .work-process-cover-bg {
-    background-attachment: scroll;
-  }
 
   .page-cont {
     width: 100%;
@@ -540,9 +529,6 @@ a:hover {
   }
   .work-sec-cont {
     margin: 50px auto;
-  }
-  .head-cover-bg {
-    background-attachment: scroll;
   }
   .logo-and-nav {
     margin-bottom: 50px;
