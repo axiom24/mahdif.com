@@ -52,19 +52,20 @@ a:hover {
 }
 
 .head-cover-bg {
-  background: linear-gradient(0deg, #051320 0%, rgba(5,18,32,0.66) 100%), url('images/header-bg.jpg') no-repeat center center fixed;
+  background: linear-gradient(0deg, #051320 0%, rgba(5,18,32,0.66) 100%), url('images/header-bg.jpg') no-repeat center center;
   background-size: cover;
   height: 100vh;
   min-height: 600px;
 }
 
 .short-bio-cover-bg {
-  background: linear-gradient(0deg, #051320 0%, rgba(5,18,32,0.5) 50%, #051320 100%), url('images/habibidesk.jpg') no-repeat center center fixed;
+  background: linear-gradient(0deg, #051320 0%, rgba(5,18,32,0.5) 50%, #051320 100%), url('images/habibidesk.jpg') no-repeat center center;
   background-size: cover;
 }
 
+
 .work-process-cover-bg {
-  background: linear-gradient(0deg, #051320 0%, rgba(5,18,32,0.90) 50%, #051320 100%), url('images/process-bg.jpg') no-repeat center center fixed;
+  background: linear-gradient(0deg, #051320 0%, rgba(5,18,32,0.90) 50%, #051320 100%), url('images/process-bg.jpg') no-repeat center center;
   background-size: cover;
 }
 
