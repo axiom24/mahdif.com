@@ -79,9 +79,12 @@ a:hover {
   display: inline-block;
   clear: both;
   width: 100%;
-  margin: 50px 0 200px 0;
+  margin: 50px 0 100px 0;
   position: relative;
   text-align: left;
+
+  opacity: 0;
+  animation: fadeInAnimation 0.5s ease-in-out 0.2s forwards;
 }
 
 .head-logo {
@@ -90,9 +93,6 @@ a:hover {
   height: 40px;
   background: url('images/logo.svg') center center no-repeat;
   vertical-align: middle;
-
-  opacity: 0;
-  animation: fadeInAnimation 1s ease-in-out 0s forwards;
 }
 
 .head-menu {
@@ -102,9 +102,6 @@ a:hover {
   top: 50%;
   right: 0;
   transform: translateY(-50%);
-
-  opacity: 0;
-  animation: fadeInAnimation 0.5s ease-in-out 0.5s forwards;
 }
 
 .head-menu a, #menu-close-button {
@@ -169,25 +166,16 @@ a:hover {
 }
 
 .head-title {
-  font-weight: 400;
-  font-size: 24px;
-
-  opacity: 0;
-  animation: fadeInAnimation 0.5s ease-in-out 1s forwards;
-}
-
-.sec-title {
   font-weight: 300;
-  font-size: 16px;
-  color: rgba(255,255,255,0.7);
+  font-size: 32px;
 
-  opacity: 0;
-  animation: fadeInAnimation 1s ease-in-out 1.5s forwards;
 }
 
-.cover-titles-line {
-  width: 0;
-  animation: expandWidthAnimation 0.5s ease-in-out 2s forwards;
+.main-head-title {
+  font-size: 48px;
+
+  opacity: 0;
+  animation: fadeInAnimation 0.5s ease-in-out 0.4s forwards;
 }
 
 .stalker-sec-title {
@@ -210,7 +198,7 @@ a:hover {
   border-radius: 33px;
 
   opacity: 0;
-  animation: fadeInAnimation 1s ease-in-out 2.5s forwards;
+  animation: fadeInAnimation 0.5s ease-in-out 1s forwards;
 }
 .main-cta:hover {
   text-decoration: none;
@@ -482,7 +470,7 @@ a:hover {
     margin: 5px;
   }
   .head-title {
-    font-size: 18px;
+    font-size: 28px;
   }
   .sec-title {
     font-size: 16px;
