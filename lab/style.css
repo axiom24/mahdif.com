@@ -28,6 +28,7 @@ input, textarea {
 .mainCont{
 	width: 100%;
 	margin: 0 auto 200px;
+	padding: 20px;
 }
 
 .mainCont h1{
@@ -43,7 +44,7 @@ input, textarea {
 	display: block;
 	width: 100%;
 	text-decoration: none;
-	padding: 28px 25px 25px 25px;
+	padding: 28px 0 25px 0;
 	border-bottom: solid 1px #eff8ff;
 	position: relative;
 	text-align: center;
@@ -58,7 +59,7 @@ input, textarea {
 	background: #008eee;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 640px){
 	.mainCont h1{font-size: 30px; margin: 25px 0 50px 0;}
 	.mainCont a{font-size: 18px; line-height: 28px; padding: 18px 15px 15px 15px;}
 }
